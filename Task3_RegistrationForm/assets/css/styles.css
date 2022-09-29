@@ -2,14 +2,14 @@
     display: flex;
 }
 .bodyleft{
-    width: 40%;
-    margin: 5%;
+    width: 45%;
+    margin: 2.5%;
     background-color: rgba(154, 149, 160, 0.150);
     border-radius: 6px;
 }
 .bodyright{
-    width: 40%;
-    margin: 5%;
+    width: 45%;
+    margin: 2.5%;
     background-color: rgba(154, 149, 160, 0.150);   
     border-radius: 6px;
 }
@@ -36,9 +36,38 @@
 .datashowleft{
     border: black 2px solid;
     border-right: 0px;
-    height: 20vh;
+    background-color: white;
+    font-family: monospace;
+ 
 }
 .datashowright{
     border: black 2px solid;
-    height: 20vh;
+    display:flex;justify-content: center;align-items: center;
+    background-color: white;
+}
+.uimage{
+    width: 80%;
+    border-radius: 50%;
+    margin: 5%;
+}
+.aboutmebtn{
+    width: 30%!important;
+    text-align: center;
+    margin: 5%!important;
+    margin-inline: 35%!important;
+    border-radius: 18px;
+    background-color:rgb(67, 67, 82);
+    color: white;
+    border-color: rgb(67, 67, 82);
+    text-decoration:none;
+    text-align: center;
+    padding: 2%;
+    border: solid white 2px;
+
+}
+.aboutmebtn:hover{
+    background-color: white;
+    color: rgb(67, 67, 82);
+    zoom: 90%;
+    border: dashed rgb(67, 67, 82) 2px;
 }

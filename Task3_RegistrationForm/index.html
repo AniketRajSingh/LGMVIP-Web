@@ -22,14 +22,16 @@
         <h1>Registration Form</h1>
         <div>
             <!-- Instagram -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+            <a class="btn btn-outline-light btn-floating m-1" href="https://instagram.com/aniket.raj.singh" role="button"><i
                     class="fa fa-instagram"></i></a>
 
             <!-- Linkedin -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fa fa-linkedin"></i></a>
+            <a class="btn btn-outline-light btn-floating m-1" href="https://linkedin.com/in/aniket-singh-5ba125168"
+                role="button"><i class="fa fa-linkedin"></i></a>
 
             <!-- Github -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fa fa-github"></i></a>
+            <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/AniketRajSingh" role="button"><i
+                    class="fa fa-github"></i></a>
         </div>
     </section>
     <section class="body">
@@ -37,7 +39,7 @@
             <h1>Fill Your Data Here :</h1>
             <hr>
 
-            <form class="form-horizontal" action="index.html" method="GET">
+            <form class="form-horizontal">
                 <fieldset>
 
                     <!-- Name input-->
@@ -90,7 +92,7 @@
                         <div class="col-md-4">
                             <div class="radio">
                                 <label for="gender-0">
-                                    <input type="radio" name="gender" id="gender-0" value="Male" checked="checked">
+                                    <input type="radio" name="gender" id="gender-0" value="Male">
                                     Male
                                 </label>
                             </div>
@@ -176,15 +178,15 @@
                     </div>
                     <hr>
 
-                    <!-- Submit / Clear -->
-                    <div style="display:flex;justify-content: space-between;">
-                        <button id="submitbutton" onclick="callvalue()" name="submitbutton"
-                            class="btn btn-success">Submit</button>
-                        <button id="clearbutton" name="clearbutton" class="btn btn-danger">Clear</button>
-                    </div>
-
                 </fieldset>
             </form>
+            <!-- Submit / Clear -->
+            <div style="display:flex;justify-content: space-between;">
+                <button id="submitbutton" onclick="callvalue()" name="submitbutton"
+                    class="btn btn-success">Submit</button>
+                <button id="clearbutton" onclick="clearvalue()" name="clearbutton" class="btn btn-danger">Clear</button>
+            </div>
+
         </div>
         <div class="bodyright p-4">
             <h1>Verify Your Data Here :</h1>
@@ -200,12 +202,14 @@
                 <div class="col-8 datashowleft">
                     <p id="output"></p>
                 </div>
-                <div class="col-4 datashowright"></div>
+                <div class="col-4 datashowright" id="userimage">
+                </div>
+                <a href="#aboutme" class="aboutmebtn">Know More</a>
             </div>
         </div>
     </section>
     <section>
-        <div style="font-family:monospace;" class="aboutme p-4">
+        <div style="font-family:monospace;" id="aboutme" class="aboutme p-4">
             <img style="border-radius:50%; width: max-content; padding: 30px;" src="assets/img/IMG20220828154131.jpg"
                 alt="MyImage">
             <div>
@@ -222,16 +226,41 @@
         </div>
 
     </section>
+    <footer style="background-color:rgb(67, 67, 82);" class="text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://instagram.com/aniket.raj.singh" role="button"><i
+                        class="fa fa-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://linkedin.com/in/aniket-singh-5ba125168"
+                    role="button"><i class="fa fa-linkedin"></i></a>
+
+                <!-- Github -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/AniketRajSingh" role="button"><i
+                        class="fa fa-github"></i></a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 Copyright:
+            <a class="text-white" href="aniketrajsingh.github.io/Portfolio-1/">Aniket Raj Singh</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
         crossorigin="anonymous"></script>
     <script src="assets/javascript/script.js"></script>
+</body>
 
 </html>
-
-
-
-
-
