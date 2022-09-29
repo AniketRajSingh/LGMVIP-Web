@@ -10,3 +10,14 @@
 
 
 Link to the Webapp: https://aniketrajsingh.github.io/LGMVIP-Web/Task1_TodoList/
+
+
+
+Task 3 - Registration Form
+
+<img width="1472" alt="Screenshot 2022-09-30 at 3 33 25 AM" src="https://user-images.githubusercontent.com/65419450/193150679-3cdedfd4-e356-4257-8d46-ca341485d751.png">
+<img width="1469" alt="Screenshot 2022-09-30 at 3 34 39 AM" src="https://user-images.githubusercontent.com/65419450/193150746-d7124a13-a820-4d93-80d3-8230a7af9229.png">
+
+
+
+Link to the Webapp: https://aniketrajsingh.github.io/LGMVIP-Web/Task3_RegistrationForm/
