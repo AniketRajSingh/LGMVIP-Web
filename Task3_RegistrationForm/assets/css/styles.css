@@ -1,0 +1,44 @@
+.body{
+    display: flex;
+}
+.bodyleft{
+    width: 40%;
+    margin: 5%;
+    background-color: rgba(154, 149, 160, 0.150);
+    border-radius: 6px;
+}
+.bodyright{
+    width: 40%;
+    margin: 5%;
+    background-color: rgba(154, 149, 160, 0.150);   
+    border-radius: 6px;
+}
+.header{
+    background-color: rgb(67, 67, 82);
+    color: white;
+    text-align: center;
+    padding: 2%;
+}
+.input-box{
+    width:300%;
+    height: 2em;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+.aboutme{
+    margin: 5%;
+    background-color: rgba(154, 149, 160, 0.150);   
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+}
+.datashowleft{
+    border: black 2px solid;
+    border-right: 0px;
+    height: 20vh;
+}
+.datashowright{
+    border: black 2px solid;
+    height: 20vh;
+}
