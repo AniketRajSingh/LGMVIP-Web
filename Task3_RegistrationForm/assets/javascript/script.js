@@ -23,13 +23,30 @@ function callvalue() {
                      Skills: ${uskills}`;  
     let userimage = `<img src = '${uimg}' alt='UserImg' class='uimage'>`                   
                      
-    
     document.getElementById("output").innerHTML = outputdata;
     document.getElementById("userimage").innerHTML = userimage;
+    const brtag = document.createElement("br");
+    document.getElementById('outputbox').appendChild(brtag);
+    document.getElementById('outputbox').appendChild(brtag);
+    const hrtag = document.createElement("hr");
+    document.getElementById('outputbox').appendChild(hrtag);
+    addnew();
+  }
+  function addnew(){
+    namechange= document.getElementById('output');
+    namechange.removeAttribute('id');
+    namechange= document.getElementById('userimage');
+    namechange.removeAttribute('id');
+    const ptag = document.createElement("p");
+    const uimgn = document.createElement("div")
+    let newdatabox = document.getElementById('outputbox').appendChild(ptag);
+    let newuimg = document.getElementById('outputimg').appendChild(uimgn);
+    newdatabox.setAttribute('id','output');
+    newuimg.setAttribute('id','userimage');
   }
   
   function clearvalue(){
-    document.getElementById("output").innerHTML ='';
-    document.getElementById("userimage").innerHTML = '';  
+    document.getElementById("outputbox").innerHTML ='<br><p id="output"></p>';
+    document.getElementById("outputimg").innerHTML = '<div id="userimage"></div>';  
     alert('All Items Cleared');
   }
