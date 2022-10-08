@@ -21,3 +21,17 @@ Task 3 - Registration Form
 
 
 Link to the Webapp: https://aniketrajsingh.github.io/LGMVIP-Web/Task3_RegistrationForm/
+
+
+
+Task 4 - Simple Calculator
+
+
+<img width="1470" alt="Screenshot 2022-10-08 at 7 47 32 PM" src="https://user-images.githubusercontent.com/65419450/194712175-5e1040d8-006f-4eb5-b9b5-aa53165c0dcd.png">
+
+
+https://user-images.githubusercontent.com/65419450/194712184-61e76eb0-43ba-481d-a7e5-0a4316ce79ed.mov
+
+
+
+Link to the Webapp: https://aniketrajsingh.github.io/LGMVIP-Web/Task4_Calculator/
