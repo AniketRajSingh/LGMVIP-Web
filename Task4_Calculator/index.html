@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+
+    <!-- css  -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- Font-Awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- Navigation Bar  -->
+    <nav>
+        <div class="leftnav">
+            <h1 style="margin:0px;">Simple Calculator</h1>
+        </div>
+        <div class="rightnav">
+            <a class="atop" href="https://github.com/AniketRajSingh"><i class="fa-brands fa-github"></i></a>
+            <a class="atop" href="https://www.instagram.com/aniket.raj.singh/"><i class="fa-brands fa-instagram"></i></a>
+            <a class="atop" href="https://www.linkedin.com/in/aniket-singh-5ba125168"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+
+    </nav>
+
+    <!-- Calculator Main Body -->
+    <section style="background-color: rgba(154, 149, 160, 0.150);">
+        <div class="mycalci">
+            <div class="calbody">
+                <div class="caldisplay">
+                    <div class="row">
+                        <div class="col-10" style="padding-right:0px;">
+                            <div id="upperdisplay" class="upperdisplay"></div>
+                            <div id="lowerdisplay" class="lowerdisplay"></div>
+                        </div>
+                        <div style="padding: 0px;" class="col-2">
+                            <button onclick="cleardisplayfn()" class="calbtnclear">Clear</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="calbuttons">
+                    <div class="row" style="width:100%;margin:0.1%;">
+                        <div class="col-3">
+                            <button onclick="display1('1')" class="numkeys calbtn">1</button>
+                            <button onclick="display1('4')" class="numkeys calbtn">4</button>
+                            <button onclick="display1('7')" class="numkeys calbtn">7</button>
+                            <button onclick="display1('.')" class="funkeys calbtn">.</button>
+                        </div>
+                        <div class="col-3">
+                            <button onclick="display1('2')" class="numkeys calbtn">2</button>
+                            <button onclick="display1('5')" class="numkeys calbtn">5</button>
+                            <button onclick="display1('8')" class="numkeys calbtn">8</button>
+                            <button onclick="display1('0')" class="numkeys calbtn">0</button>
+                        </div>
+                        <div class="col-3">
+                            <button onclick="display1('3')" class="numkeys calbtn">3</button>
+                            <button onclick="display1('6')" class="numkeys calbtn">6</button>
+                            <button onclick="display1('9')" class="numkeys calbtn">9</button>
+                            <button onclick="maincalculator()" class="equals calbtn">=</button>
+                        </div>
+                        <div class="col-3">
+                            <button onclick="display1('/')" class="funkeys calbtn">/</button>
+                            <button onclick="display1('-')" class="funkeys calbtn">-</button>
+                            <button onclick="display1('+')" class="funkeys calbtn">+</button>
+                            <button onclick="display1('*')" class="funkeys calbtn">x</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div style="font-family:monospace;" id="aboutme" class="aboutme p-4">
+            <img id="AniPic" src="https://raw.githubusercontent.com/AniketRajSingh/LGMVIP-Web/aniket_master/Task3_RegistrationForm/assets/img/IMG20220828154131.jpg"
+                alt="MyImage">
+            <div>
+                <h3>Hii, there I'ts Me Aniket</h3>
+                <h4> I am a Student who loves to Code</h4>
+                <p>Here's a project that belongs to Aniket Raj Singh, This project is The Task 4 of LGMVIP-Web Virtual
+                    Internship Program.</p>
+                <p>In this Project the we can do basic calculations using the javascript based calculator.</p>
+                <h4>Instructions</h4>
+                <li>Use the buttons to do the calculations.</li>
+                <li>Press 'Clear' to clear the calculator display.</li><br>
+                <h5>Hope You Will Like the Project, for any query or suggestion use my contacts linked below.</h5>
+            </div>
+        </div>
+
+    </section>
+    <footer style="background-color:  #a4a1a1;" class="text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://instagram.com/aniket.raj.singh" role="button"><i
+                        class="fa-brands fa-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://linkedin.com/in/aniket-singh-5ba125168"
+                    role="button"><i class="fa-brands fa-linkedin"></i></a>
+
+                <!-- Github -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/AniketRajSingh" role="button"><i
+                        class="fa-brands fa-github"></i></a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: #ffffff;color:#2a76e1 ;">
+           © 2022 Copyright :<a href="https://aniketrajsingh.github.io/Portfolio-1/">Aniket Raj Singh</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script src="assets/javascript/script.js"></script>
+</body>
+
+</html>

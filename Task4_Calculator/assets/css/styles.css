@@ -1,0 +1,129 @@
+/* navabar starts here  */
+
+nav{
+    background-color:rgb(250, 250, 250);
+    color: #2a76e1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    padding-inline:5% ;
+    box-shadow: #777272 0px 0px 20px 2px;
+}
+.leftnav{
+    width: 30%;
+    font-size: x-large;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+}
+.rightnav{
+    width: 70%;
+    text-align: end;
+    color: white;
+}
+a{
+    text-decoration: none!important;
+    color: white;
+    padding-inline: 1%;
+    font-size: x-large;
+}
+.atop:hover{
+    zoom: 150%;
+}
+
+/* Calculator starts here  */
+
+/* Calculator ke background ki css  */
+.mycalci{
+    background-color: #ffffff;
+    margin: 10vh;
+    width: 40%;
+    margin-inline: 30%;
+}
+
+/* Calculator ki body ka css  */
+.calbody{
+    background-color: #777272;
+    height: 70vh;
+    width: 80%;
+    margin: 5%;
+    margin-inline: 10%;
+    box-shadow: #bdb6b6 0px 0px 15px 10px;
+}
+/*Display ka CSS*/
+.caldisplay{
+    background-color: white;
+    color: black;
+    height: 20vh;
+    border-top: #777272 1vh solid;
+    margin: 1vh;
+}
+.upperdisplay{
+    background-color: #a4a1a1;
+    height: 9vh;
+    margin: 0.5vh;
+    color: white;
+    font-size: larger;
+    text-align: end;
+    padding: 5px;
+}
+.lowerdisplay{
+    color: white;
+    height: 8.5vh;
+    margin: 0.5vh;
+    background-color: rgb(211, 208, 208);
+    font-size: xx-large;
+    text-align: end;
+    padding: 5px;
+}
+/* Buttons ka CSS  */
+.calbuttons{
+    background-color: white;
+    margin:1vh;
+    height:48vh ;
+}
+.calbtn{
+    width: 100%;
+    height: 10vh;
+    margin: 1vh;
+    margin-inline: 0vh;
+    padding: 1vh;
+    border: none;
+}
+.calbtn:active{
+    background-color: #2a76e1;
+}
+.calbtnclear{
+border: none;
+height: 18vh;
+margin-top: 0.5vh;
+background-color: rgba(207, 57, 89, 0.887);
+color: white;
+width: 80%;
+}
+.equals{
+    background-color: rgba(207, 57, 89, 0.887);
+    color: white;
+}
+.funkeys{
+    background-color: rgb(230, 182, 38);
+    color: white;
+}
+.numkeys{
+    color: white;
+    background-color: rgb(108, 220, 108);
+}
+
+/* Extra Info on me Section CSS  */
+.aboutme {
+    margin: 5%;
+    background-color: rgba(154, 149, 160, 0.150);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+}
+#AniPic {
+    border-radius: 50%;
+    width: max-content;
+    padding: 30px;
+}
